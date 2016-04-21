@@ -5,12 +5,14 @@
     </a>
     <ul>
         <li class="nav-home {% if page.current == 'home' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}">Home</a></li>
-        <li class="nav-about {% if page.current == 'about' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}about">About</a></li>
-        <li class="nav-fables {% if page.url contains 'fables' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/fables">Fables</a></li>
+        <li class="nav-about {% if page.current == 'about' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}about">소개</a></li>
+        <li class="nav-blog {% if page.url contains '블로그' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/블로그">블로그</a></li>
+        <!-- <li class="nav-fables {% if page.url contains 'fables' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/fables">Fables</a></li>
         <li class="nav-speeches {% if page.url contains 'speeches' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/speeches">Speeches</a></li>
-        <li class="nav-fiction {% if page.url contains 'fiction' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/fiction">Fiction</a></li>
-        <li class="nav-author {% if page.current == 'author' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}author/casper">Author</a></li>
+        <li class="nav-fiction {% if page.url contains 'fiction' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/fiction">Fiction</a></li> -->
+        <li class="nav-author {% if page.current == 'author' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}author/casper">팀원소개</a></li>
+        <li class="nav-github"><a href="https://github.com/finers/finers.github.io/">깃허브</a></li>
     </ul>
-    <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
+    <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">구독하기</a>
 </div>
 <span class="nav-cover"></span>

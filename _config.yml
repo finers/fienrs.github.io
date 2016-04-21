@@ -7,8 +7,8 @@ paginate: 5
 language: 'en-uk'
 
 # Website info
-name: 'FIENRS DEV'
-description: "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
+name: 'FINERS DEV'
+description: "파이너스기술블로그입니다"
 
 # Author's info
 author: 'Woong Kim'
@@ -37,6 +37,7 @@ exclude: [vendor]
 
 # Additional settings available on the front-matter
 # Site logo in the index.html (as in demo.ghost.io)
+logo: assets/images/logo_finers.png
 # Author's page cover in _layouts/author.html
 # The same for page.html and tag.html layouts
 # Post's page cover as a per-post basis _posts/...
