@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- [[! Page Meta ]] -->
-    <title>FIENRS DEV</title>
-    <meta name="description" content="FIENRS DEV - A beautiful narrative written with the world's most elegant publishing platform. The story begins here." />
+    <title>FINERS DEV</title>
+    <meta name="description" content="FINERS DEV - 파이너스기술블로그입니다" />
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,20 +27,36 @@
     <script>hljs.initHighlightingOnLoad();</script>
 
     <!-- [[! Ghost outputs important style and meta data with this tag ]] -->
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.10/webfont.js"></script>
+    <script type="text/javascript">
+      WebFont.load({
+     
+        // For google fonts
+        google: {
+          families: ['Droid Sans', 'Droid Serif']
+        }
+        // For early access or custom font
+        custom: {
+            families: ['Nanum Gothic'],
+            urls: ['http://fonts.googleapis.com/earlyaccess/nanumgothic.css']
+        }
+     
+      });
+    </script>
         <link rel="canonical" href="/" />
     <meta name="referrer" content="origin" />
     <link rel="next" href="/page2/" />
 
-    <meta property="og:site_name" content="FIENRS DEV" />
+    <meta property="og:site_name" content="FINERS DEV" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="FIENRS DEV" />
-    <meta property="og:description" content="A beautiful narrative written with the world's most elegant publishing platform. The story begins here." />
+    <meta property="og:title" content="FINERS DEV" />
+    <meta property="og:description" content="파이너스기술블로그입니다" />
     <meta property="og:url" content="/" />
     <meta property="og:image" content="/assets/images/cover1.jpg" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="FIENRS DEV" />
-    <meta name="twitter:description" content="A beautiful narrative written with the world's most elegant publishing platform. The story begins here." />
+    <meta name="twitter:title" content="FINERS DEV" />
+    <meta name="twitter:description" content="파이너스기술블로그입니다" />
     <meta name="twitter:url" content="/" />
     <meta name="twitter:image:src" content="/assets/images/cover1.jpg" />
 
@@ -51,12 +67,12 @@
     "publisher": "Finding The Way Home",
     "url": "/",
     "image": "/assets/images/cover1.jpg",
-    "description": "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
+    "description": "파이너스기술블로그입니다"
 }
     </script>
 
     <meta name="generator" content="Jekyll 3.0.0" />
-    <link rel="alternate" type="application/rss+xml" title="FIENRS DEV" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="FINERS DEV" href="/feed.xml" />
 
 
 </head>
@@ -69,13 +85,15 @@
     </a>
     <ul>
         <li class="nav-home " role="presentation"><a href="/">Home</a></li>
-        <li class="nav-about " role="presentation"><a href="/about">About</a></li>
-        <li class="nav-fables " role="presentation"><a href="/tag/fables">Fables</a></li>
+        <li class="nav-about " role="presentation"><a href="/about">소개</a></li>
+        <li class="nav-blog " role="presentation"><a href="/tag/블로그">블로그</a></li>
+        <!-- <li class="nav-fables " role="presentation"><a href="/tag/fables">Fables</a></li>
         <li class="nav-speeches  nav-current" role="presentation"><a href="/tag/speeches">Speeches</a></li>
-        <li class="nav-fiction " role="presentation"><a href="/tag/fiction">Fiction</a></li>
-        <li class="nav-author " role="presentation"><a href="/author/casper">Author</a></li>
+        <li class="nav-fiction " role="presentation"><a href="/tag/fiction">Fiction</a></li> -->
+        <li class="nav-author " role="presentation"><a href="/author/casper">팀원소개</a></li>
+        <li class="nav-github"><a href="https://github.com/finers/finers.github.io/">깃허브</a></li>
     </ul>
-    <a class="subscribe-button icon-feed" href="/feed.xml">Subscribe</a>
+    <a class="subscribe-button icon-feed" href="/feed.xml">구독하기</a>
 </div>
 <span class="nav-cover"></span>
 
@@ -86,13 +104,15 @@
         <!-- < dynamically overriding backgrounds for tags as well as descriptions -->
 
 
+
+
 <!-- < default}} -->
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
 <!-- If we have a tag cover, display that - else blog cover - else nothing -->
 <header class="main-header tag-head " style="background-image: url(/assets/images/cover7.jpg) ">
     <nav class="main-nav overlay clearfix">
-        <a class="blog-logo" href="/"><img src="/assets/images/ghost.png" alt="Blog Logo" /></a>
+        <a class="blog-logo" href="/"><img src="/assets/images/logo_finers.png" alt=""></a>
         
             <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         
@@ -192,7 +212,7 @@
 </main>
 
         <footer class="site-footer clearfix">
-          <section class="copyright"><a href="/">FIENRS DEV</a> &copy; 2016</section>
+          <section class="copyright"><a href="/">FINERS DEV</a> &copy; 2016</section>
           <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/biomadeira/jasper">Jasper</a></section>
         </footer>
     </div>

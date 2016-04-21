@@ -7,7 +7,7 @@
 
     <!-- [[! Page Meta ]] -->
     <title>About</title>
-    <meta name="description" content="FIENRS DEV - A beautiful narrative written with the world's most elegant publishing platform. The story begins here." />
+    <meta name="description" content="FINERS DEV - 파이너스기술블로그입니다" />
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,20 +27,36 @@
     <script>hljs.initHighlightingOnLoad();</script>
 
     <!-- [[! Ghost outputs important style and meta data with this tag ]] -->
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.10/webfont.js"></script>
+    <script type="text/javascript">
+      WebFont.load({
+     
+        // For google fonts
+        google: {
+          families: ['Droid Sans', 'Droid Serif']
+        }
+        // For early access or custom font
+        custom: {
+            families: ['Nanum Gothic'],
+            urls: ['http://fonts.googleapis.com/earlyaccess/nanumgothic.css']
+        }
+     
+      });
+    </script>
         <link rel="canonical" href="/" />
     <meta name="referrer" content="origin" />
     <link rel="next" href="/page2/" />
 
-    <meta property="og:site_name" content="FIENRS DEV" />
+    <meta property="og:site_name" content="FINERS DEV" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="FIENRS DEV" />
-    <meta property="og:description" content="A beautiful narrative written with the world's most elegant publishing platform. The story begins here." />
+    <meta property="og:title" content="FINERS DEV" />
+    <meta property="og:description" content="파이너스기술블로그입니다" />
     <meta property="og:url" content="/" />
     <meta property="og:image" content="/assets/images/cover1.jpg" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="FIENRS DEV" />
-    <meta name="twitter:description" content="A beautiful narrative written with the world's most elegant publishing platform. The story begins here." />
+    <meta name="twitter:title" content="FINERS DEV" />
+    <meta name="twitter:description" content="파이너스기술블로그입니다" />
     <meta name="twitter:url" content="/" />
     <meta name="twitter:image:src" content="/assets/images/cover1.jpg" />
 
@@ -51,12 +67,12 @@
     "publisher": "Finding The Way Home",
     "url": "/",
     "image": "/assets/images/cover1.jpg",
-    "description": "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
+    "description": "파이너스기술블로그입니다"
 }
     </script>
 
     <meta name="generator" content="Jekyll 3.0.0" />
-    <link rel="alternate" type="application/rss+xml" title="FIENRS DEV" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="FINERS DEV" href="/feed.xml" />
 
 
 </head>
@@ -69,13 +85,15 @@
     </a>
     <ul>
         <li class="nav-home " role="presentation"><a href="/">Home</a></li>
-        <li class="nav-about  nav-current" role="presentation"><a href="/about">About</a></li>
-        <li class="nav-fables " role="presentation"><a href="/tag/fables">Fables</a></li>
+        <li class="nav-about  nav-current" role="presentation"><a href="/about">소개</a></li>
+        <li class="nav-blog " role="presentation"><a href="/tag/블로그">블로그</a></li>
+        <!-- <li class="nav-fables " role="presentation"><a href="/tag/fables">Fables</a></li>
         <li class="nav-speeches " role="presentation"><a href="/tag/speeches">Speeches</a></li>
-        <li class="nav-fiction " role="presentation"><a href="/tag/fiction">Fiction</a></li>
-        <li class="nav-author " role="presentation"><a href="/author/casper">Author</a></li>
+        <li class="nav-fiction " role="presentation"><a href="/tag/fiction">Fiction</a></li> -->
+        <li class="nav-author " role="presentation"><a href="/author/casper">팀원소개</a></li>
+        <li class="nav-github"><a href="https://github.com/finers/finers.github.io/">깃허브</a></li>
     </ul>
-    <a class="subscribe-button icon-feed" href="/feed.xml">Subscribe</a>
+    <a class="subscribe-button icon-feed" href="/feed.xml">구독하기</a>
 </div>
 <span class="nav-cover"></span>
 
@@ -91,9 +109,9 @@
 <!-- Everything inside the #post tags pulls data from the page -->
 <!-- #post -->
 
-<header class="main-header post-head no-cover">
-    <nav class="main-nav  clearfix">
-        <a class="blog-logo" href="/"><img src="/assets/images/ghost.png" alt="Blog Logo" /></a>
+<header class="main-header post-head " style="background-image: url(/assets/images/cover4.jpg)">
+    <nav class="main-nav overlay clearfix">
+        <a class="blog-logo" href="/"><img src="/assets/images/logo_finers.png" alt=""></a>
         
             <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
             
@@ -110,11 +128,15 @@
         </header>
 
         <section class="post-content">
-            <p>This is a demo blog for Ghost, it contains dummy content which allows you to click around and see what a Ghost blog running the default theme looks like.</p>
+            <p>안녕하세요. 이 블로그는 남성 화장품 추천서비스 <a href="http://finers.co.kr">파이너스</a>에서 운영하는 기술 블로그입니다.</p>
 
-<p>We use this for testing and for reference!</p>
+<p>파이너스는 수많은 삽질(?)을 통해서 만들어졌습니다.<br />
+이러한 삽질들을 조금이라도 덜을 수 있었던 것은 단연 오픈소스 커뮤니티(e.g. <a href="http://stackoverflow.com">스택오버훌로우</a>) 덕분입니다.</p>
 
-<p>If you’d like to set up your own blog, head on over to <a href="https://ghost.org">https://ghost.org</a> and sign up.</p>
+<p>저희는 입은 은혜를 <a href="https://ko.wiktionary.org/wiki/각골난망">각골난망</a>하고 <a href="https://ko.wiktionary.org/wiki/결초보은">결초보은</a>하려고 합니다.<br />
+저희가 배운 많은 것들을 기록하고, 개선한 것들을 공유함으로써 오픈소스 생태계에 기여하는 것을 목적으로 블로그를 운영하고자 합니다.</p>
+
+<p>감사합니다.</p>
 
         </section>
 
@@ -125,7 +147,7 @@
 
 
         <footer class="site-footer clearfix">
-          <section class="copyright"><a href="/">FIENRS DEV</a> &copy; 2016</section>
+          <section class="copyright"><a href="/">FINERS DEV</a> &copy; 2016</section>
           <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/biomadeira/jasper">Jasper</a></section>
         </footer>
     </div>
