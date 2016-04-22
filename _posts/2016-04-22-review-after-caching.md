@@ -2,7 +2,7 @@
 published: true
 layout: post
 cover: assets/images/cover2.jpg
-title: "Travis CI에 캐시 구현하기 - 1"
+title: "Travis CI에 캐시 구현하기 - 2"
 tags: 블로그
 subclass: "post tag-test tag-content"
 categories: casper
@@ -57,8 +57,4 @@ navigation: true
 
 - 삽질하며 성장한다지만, 그만좀 하고 싶다 삽질.
 - prose.io에서 그림을 업로드하면 바로 푸시한다 ㅡㅡ..
-- 다음 과제는 ***multiple author*** 구현하기! 
-
-
-
-
+- 다음 과제는 ***multiple author*** 구현하기!
