@@ -1,5 +1,12 @@
 ---
-published: false
+published: true
+layout: post
+cover: assets/images/cover2.jpg
+title: "Travis CI에 캐시 구현하기 - 1"
+tags: 블로그
+subclass: "post tag-test tag-content"
+categories: casper
+navigation: true
 ---
 
 캐싱 구현에 성공한 줄 알았건만
