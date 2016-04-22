@@ -5,7 +5,7 @@ rvm:
 - 2.1.1
 install:
 - ./rebund/run download
-- bundle install
+- bundle install --path vendor/bundle
 script: bundle exec rake site:deploy --quiet
 after_script:
 - ./rebund/run upload
